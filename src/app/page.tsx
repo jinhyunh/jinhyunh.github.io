@@ -5,7 +5,7 @@ export default function Home() {
     <div className="bg-[#f0e9ca] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-6 row-start-2 justify-center items-center">
         <Image
-          className="dark:invert items-center"
+          className="items-center"
           src="/ico_shuffle_722.png"
           alt="Next.js logo"
           width={256}
@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl font-bold text-center">
             Jinhyun Hwang
           </h1>
-          <p className="text-center text-sm sm:text-base text-gray-600 dark:text-gray-400">
+          <p className="text-center text-sm sm:text-base text-gray-600">
             Hi, I&apos;m a data engineer and software developer with a knack for building efficient, data-driven solutions. When I&apos;m not working, I enjoy diving 
             into personal projects, exploring new technologies, and pursuing my other hobbies. I&apos;m currently looking for new opportunities to grow and contribute 
             to a team. Feel free to reach out!
@@ -26,7 +26,7 @@ export default function Home() {
         <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 justify-items-center justify-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-4 text-center">
             <a
-              className="rounded-2xl border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#2b8854] hover:font-bold dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#2b8854] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
               href="/Jinhyun_Hwang_Resume.pdf"
               rel="noopener noreferrer"
             >
@@ -35,7 +35,7 @@ export default function Home() {
           </li>
           <li className="mb-4 text-center">
             <a
-              className="rounded-2xl border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#c2a771] hover:font-bold dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#c2a771] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
               href="/Jinhyun_Hwang_Resume.pdf"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ export default function Home() {
           </li>
           <li className="mb-4 text-center">
             <a
-              className="rounded-2xl border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#135b20] hover:font-bold dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#135b20] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
               href="/Jinhyun_Hwang_Resume.pdf"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ export default function Home() {
           </li>
           <li className="mb-4 text-center">
             <a
-              className="rounded-2xl border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#f0e9ca] hover:font-bold dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#f0e9ca] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
               href="/Jinhyun_Hwang_Resume.pdf"
               rel="noopener noreferrer"
             >
