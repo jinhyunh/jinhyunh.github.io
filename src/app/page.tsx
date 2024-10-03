@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl sm:text-5xl font-bold text-center">
+          <h1 className="text-4xl sm:text-5xl font-bold text-center text-black">
             Jinhyun Hwang
           </h1>
           <p className="text-center text-sm sm:text-base text-gray-600">
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
         </div>
 
-        <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 justify-items-center justify-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+        <ol className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-4 justify-items-center justify-center sm:text-left text-black font-[family-name:var(--font-geist-mono)]">
           <li className="mb-4 text-center">
             <a
               className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#2b8854] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
