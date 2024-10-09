@@ -45,7 +45,7 @@ export default function Home() {
           <li className="mb-4 text-center">
             <a
               className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#135b20] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-              href="/Jinhyun_Hwang_Resume.pdf"
+              href="/work"
               rel="noopener noreferrer"
             >
               My Projects
@@ -54,7 +54,7 @@ export default function Home() {
           <li className="mb-4 text-center">
             <a
               className="rounded-2xl border border-solid border-black/[.08] transition-colors flex items-center justify-center hover:bg-[#a48758] hover:text-[#f0e9ca] hover:font-bold hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-              href="/Jinhyun_Hwang_Resume.pdf"
+              href="/work"
               rel="noopener noreferrer"
             >
               My Hobbies
